@@ -6,16 +6,16 @@
 **About this project**: Create an Android-TV Movie Application Using Contentstack Android SDK.
 
 #### Screenshot 1
-<img src='https://github.com/contentstack/contentstack-android-tv/blob/dev/app/src/main/assets/pic_1.png?raw=true' width='800' height='450'/>
+<img src='https://github.com/contentstack/contentstack-android-tv/blob/dev/app/src/main/assets/pic_1.png?raw=true' width='800' height='425'/>
 
 #### Screenshot 2
-<img src='https://github.com/contentstack/contentstack-android-tv/blob/dev/app/src/main/assets/pic_2.png?raw=true' width='800' height='450'/>
+<img src='https://github.com/contentstack/contentstack-android-tv/blob/dev/app/src/main/assets/pic_2.png?raw=true' width='800' height='425'/>
 
 #### Screenshot 3
-<img src='https://github.com/contentstack/contentstack-android-tv/blob/dev/app/src/main/assets/pic_3.png?raw=true' width='800' height='450'/>
+<img src='https://github.com/contentstack/contentstack-android-tv/blob/dev/app/src/main/assets/pic_3.png?raw=true' width='800' height='425'/>
 
 #### Screenshot 4
-<img src='https://github.com/contentstack/contentstack-android-tv/blob/dev/app/src/main/assets/pic_4.png?raw=true' width='800' height='450'/>
+<img src='https://github.com/contentstack/contentstack-android-tv/blob/dev/app/src/main/assets/pic_4.png?raw=true' width='800' height='425'/>
 
 ## Tutorial
 
