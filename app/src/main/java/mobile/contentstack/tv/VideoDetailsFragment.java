@@ -78,7 +78,7 @@ public class VideoDetailsFragment extends DetailsFragment {
             setupDetailsOverviewRow();
             setupDetailsOverviewRowPresenter();
             // Adding related videos section, uncomment the below method
-            setupRelatedMovieListRow();
+            //setupRelatedMovieListRow();
             setAdapter(mAdapter);
             initializeBackground(mSelectedMovie);
             setOnItemViewClickedListener(new ItemViewClickedListener());

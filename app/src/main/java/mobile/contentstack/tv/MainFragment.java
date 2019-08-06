@@ -123,13 +123,13 @@ public class MainFragment extends BrowseFragment {
             ROW = ROW+1;
         }
 
-        HeaderItem gridHeader = new HeaderItem(map.size(), "PREFERENCES");
-        GridItemPresenter mGridPresenter = new GridItemPresenter();
-        ArrayObjectAdapter gridRowAdapter = new ArrayObjectAdapter(mGridPresenter);
-        gridRowAdapter.add(getResources().getString(R.string.grid_view));
-        gridRowAdapter.add(getString(R.string.error_fragment));
-        gridRowAdapter.add(getResources().getString(R.string.personal_settings));
-        rowsAdapter.add(new ListRow(gridHeader, gridRowAdapter));
+        //HeaderItem gridHeader = new HeaderItem(map.size(), "PREFERENCES");
+        //GridItemPresenter mGridPresenter = new GridItemPresenter();
+        //ArrayObjectAdapter gridRowAdapter = new ArrayObjectAdapter(mGridPresenter);
+        //gridRowAdapter.add(getResources().getString(R.string.grid_view));
+        //gridRowAdapter.add(getString(R.string.error_fragment));
+        //gridRowAdapter.add(getResources().getString(R.string.personal_settings));
+        //rowsAdapter.add(new ListRow(gridHeader, gridRowAdapter));
 
         setAdapter(rowsAdapter);
 
