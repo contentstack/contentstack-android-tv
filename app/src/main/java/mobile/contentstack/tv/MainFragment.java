@@ -110,7 +110,7 @@ public class MainFragment extends BrowseFragment {
             String sectionCategory = entry.getKey().replace('_',' ').toUpperCase();
 
             List<Movies> list = entry.getValue();
-            //if (map.size() != 0){ Collections.shuffle(list); }
+            if (map.size() != 0){ Collections.shuffle(list); }
 
             ArrayObjectAdapter listRowAdapter = new ArrayObjectAdapter(cardPresenter);
             for (int j = 0; j < list.size(); j++) {
