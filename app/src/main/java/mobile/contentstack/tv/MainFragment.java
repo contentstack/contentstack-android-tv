@@ -110,7 +110,7 @@ public class MainFragment extends BrowseFragment {
             String sectionCategory = entry.getKey().replace('_',' ').toUpperCase();
 
             List<Movies> list = entry.getValue();
-            if (map.size() != 0){ Collections.shuffle(list); }
+            //if (map.size() != 0){ Collections.shuffle(list); }
 
             ArrayObjectAdapter listRowAdapter = new ArrayObjectAdapter(cardPresenter);
             for (int j = 0; j < list.size(); j++) {
@@ -129,7 +129,7 @@ public class MainFragment extends BrowseFragment {
         gridRowAdapter.add(getResources().getString(R.string.grid_view));
         gridRowAdapter.add(getString(R.string.error_fragment));
         gridRowAdapter.add(getResources().getString(R.string.personal_settings));
-        rowsAdapter.add(new ListRow(gridHeader, gridRowAdapter));
+        //rowsAdapter.add(new ListRow(gridHeader, gridRowAdapter));
 
         setAdapter(rowsAdapter);
 
@@ -258,8 +258,7 @@ public class MainFragment extends BrowseFragment {
             view.setLayoutParams(new ViewGroup.LayoutParams(GRID_ITEM_WIDTH, GRID_ITEM_HEIGHT));
             view.setFocusable(true);
             view.setFocusableInTouchMode(true);
-            view.setBackgroundColor(
-                    ContextCompat.getColor(getActivity(), R.color.default_background));
+            view.setBackgroundColor(ContextCompat.getColor(getActivity(), R.color.default_background));
             view.setTextColor(Color.WHITE);
             view.setGravity(Gravity.CENTER);
             return new ViewHolder(view);
