@@ -74,7 +74,6 @@ public class SplashActivity extends Activity {
         //MOVIES_LIST.clear();
         String trailorClip = "https://assets.contentstack.io/v3/assets/bltfbe7d4b4d56b2f33/blt5cf3c44b2d2db7af/5d41481da25e75043a7d8ce8/the-lion-king-trailer-2_h1080p.mov";
         List<Movies> MOVIES_LIST = new ArrayList<>();
-
         for (Entry entry: result){
 
 

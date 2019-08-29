@@ -123,13 +123,13 @@ public class MainFragment extends BrowseFragment {
             ROW = ROW+1;
         }
 
-        //HeaderItem gridHeader = new HeaderItem(map.size(), "PREFERENCES");
-        //GridItemPresenter mGridPresenter = new GridItemPresenter();
-        //ArrayObjectAdapter gridRowAdapter = new ArrayObjectAdapter(mGridPresenter);
-        //gridRowAdapter.add(getResources().getString(R.string.grid_view));
-        //gridRowAdapter.add(getString(R.string.error_fragment));
-        //gridRowAdapter.add(getResources().getString(R.string.personal_settings));
-        //rowsAdapter.add(new ListRow(gridHeader, gridRowAdapter));
+//        HeaderItem gridHeader = new HeaderItem(map.size(), "PREFERENCES");
+//        GridItemPresenter mGridPresenter = new GridItemPresenter();
+//        ArrayObjectAdapter gridRowAdapter = new ArrayObjectAdapter(mGridPresenter);
+//        gridRowAdapter.add(getResources().getString(R.string.grid_view));
+//        gridRowAdapter.add(getString(R.string.error_fragment));
+//        gridRowAdapter.add(getResources().getString(R.string.personal_settings))
+//        rowsAdapter.add(new ListRow(gridHeader, gridRowAdapter));
 
         setAdapter(rowsAdapter);
 
@@ -258,8 +258,7 @@ public class MainFragment extends BrowseFragment {
             view.setLayoutParams(new ViewGroup.LayoutParams(GRID_ITEM_WIDTH, GRID_ITEM_HEIGHT));
             view.setFocusable(true);
             view.setFocusableInTouchMode(true);
-            view.setBackgroundColor(
-                    ContextCompat.getColor(getActivity(), R.color.default_background));
+            view.setBackgroundColor(ContextCompat.getColor(getActivity(), R.color.default_background));
             view.setTextColor(Color.WHITE);
             view.setGravity(Gravity.CENTER);
             return new ViewHolder(view);
