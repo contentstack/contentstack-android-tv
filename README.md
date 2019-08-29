@@ -21,7 +21,7 @@
 
 We have created an in-depth tutorial on how you can create an Android TV app Contentstack Android SDK. Refer to the steps given in the following tutorial to create a fully functional Android news app.
 
-[Create an android TV App using Contentstack Android SDK](https://www.contentstack.com/docs/example-apps/)
+[Create an android TV App using Contentstack Android SDK](https://www.contentstack.com/docs/example-apps/build-an-android-tv-app-using-contentstack-s-android-sdk)
 
 
 ## Documentation
